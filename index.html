@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorioal Instalasi Windows 10</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/asiacyberuniversity-favicon.png" width="50" height="50" class="d-inline-block align-top" alt=""> Kelompok 5
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+    <!-- Header -->
+    <header class="jumbotron text-center">
+        <h1 class="display-4"> TUTORIAL INSTALASI WINDOWS 10</h1>
+        <p class="lead">Dipersembahkan untuk orang - orang yang ingin install Windows 10 tanpa ribet</p>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <br>
+                <img src="images/Windows_10_Logo.svg.png" class="img-fluid" alt="Windows 10 Logo" width="50%">
+                <br><br>
+                <p>Windows 10 merupakan system oprasi computer pribadi yang dikembangkan oleh Microsoft sebagai bagian dari keluarga sistem operasi Windows NT. Diperkenalkan pada tanggal 30 September 2004 dirilis pada 29 Juli 2015 dan pada November 2015, Threshold 2 dari Windows 10 (v10.0.10586) dirilis kepada publik.</p>
+                <h4>Requirements</h4>
+                <ul>
+                    <li><strong>Processor:</strong> 1 gigahertz (GHz) or faster processor or System on a Chip (SoC)</li>
+                    <li><strong>RAM:</strong>
+                        <ul>
+                            <li>1 gigabyte (GB) for 32-bit</li>
+                            <li>2 gigabytes (GB) for 64-bit</li>
+                        </ul>
+                    </li>
+                    <li><strong>Hard drive space:</strong>
+                        <ul>
+                            <li>16 GB for 32-bit OS</li>
+                            <li>32 GB for 64-bit OS</li>
+                        </ul>
+                    </li>
+                    <li><strong>Graphics card:</strong> DirectX 9 or later with WDDM 1.0 driver</li>
+                    <li><strong>Display:</strong> 800x600</li>
+                    <li><strong>Internet connection:</strong> Koneksi Internet penting untuk menginstall/download beberapa fitur.</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h2>Video Tutorial</h2>
+                <video controls autoplay muted loop width="130%">
+                    <source src="video/Cara Instal Windows 10.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <audio loop autoplay>
+                    <source src="audio/new moon.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Langkah Instalasi</h2>
+                <p>Pertama masukan media installer windows 10 yang kamu gunakan (flashdisk atau DVD). Setelah itu nyalakan komputer, lalu masuk dulu ke BIOS untuk mengatur First Booting. Caranya ketika komputer baru menyala, tekan tombol F2 atau beberapa komputer ada yang menggunakan tombol DEL untuk masuk ke BIOS. Sesuaikan saja. Setelah disetting first boot nya, tekan F10, save and restart. Komputer akan booting melalui media installer windows 10, dan jika muncul perintah Press any key too boot from CD or DVD, tekan saja sembarang tombol. Nanti proses akan segera dilanjutkan.</p>
+                <img src="images/lk-1.png" class="center" alt="Bios" width="45%">
+                <br>
+                <p>Pilih Language to install, Time and currency format, dan Keyboard or input method. Jika sudah klik next.</p>
+                <img src="images/lk-2.png" class="center" alt="Windows Installer" width="45%">
+                <br>
+                <p>Lalu klik Install now. Lalu, tunggu setup proses hingga selesai.</p>
+                <img src="images/lk-3.png" class="center" alt="Install Now" width="45%">
+                <br>
+                <p>Selanjutnya masukan serial number yang kalian miliki. Jika kalian tidak mempunyainya, klik skip saja.</p>
+                <img src="images/lk-4.png" class="center" alt="Install Now" width="45%">
+                <br>
+                <p>Pilih arsitektur Windows sesuai dengan license atau kebutuhan kalian.</p>
+                <img src="images/lk-5.png" class="center" alt="Install Now" width="45%">
+                <br>
+                <p>Kemudian beri centang pada opsi I accept the license terms. Lalu klik Next.</p>
+                <img src="images/lk-6.png" class="center" alt="Install Now" width="45%">
+                <br>
+                <p>Pada bagian ini terdapat dua pilihan, yaitu upgrade dan custom. Karena kita akan menginstall ulang komputer/laptop kita.</p>
+                <img src="images/lk-7.png" class="center" alt="Install Now" width="45%">
+                <br>
+                <p>Lalu kita akan berlanjut pada bagian pembagian partisi. <strong>Penting!</strong> Disini saya harap kamu berhati-hati betul, khususnya untuk yang masih pertama kali. Karena jika salah, bisa-bisa data kamu bakalan hilang. Misalkan anda ingin melakukan install ulang maupun upgrade/ downgrade dari sistem operasi windows lama anda ke windows 10, cukup delete Drive 0 Partition 2 (partisi C:) dan Drive 0 Partition 1 : System Reserved, nanti secara otomatis, kedua partisi yang anda hapus tersebut menjadi Unallocated Space (belum dipartisi). Nah, selanjutnya silakan buat partisi baru lagi dan jadikan Drive 0 Partition 2 sebagai lokasi instalasinya, lalu pilih Next untuk melanjutkan. Dengan begitu, data-data pada partisi lain tetap aman (tidak terhapus). Bagi anda yang ingin install ulang maupun upgrade/ downgrade dari sistem operasi windows lama anda ke windows 10, silakan lewati langkah nomor 7-11. Dan bagi anda yang HDDnya masih kosong, mulus atau yang belum pernah diinstall sistem operasi windows sebelumnya.  Jika sudah kamu atur partisinya, pilih partisi yang akan kamu jadikan lokasi untuk sistem windows nya. Kemudian klik Next.</p>
+                <img src="images/lk-8.png" class="center" alt="Install Now" width="45%">
+                <br>
+                <p>Selanjutnya adalah serangkaian proses pengalokasian file-file windows dari media installer ke hardisk. Tunggu sampai prosesnya selesai.</p>
+                <img src="images/lk-9.png" class="center" alt="Install Now" width="45%">
+                <br>
+                <p>Jika komputer sudah restart, kamu bisa keluarkan media installer dari komputer. Lalu tunggu semua prosesnya sampai benar-benar selesai. Dalam proses ini, komputer mungkin akan beberapa kali restart. Biarkan saja, komputer sedang menyesuaikan sistem dengan hardware yang ada. Setelah itu ikuti langkah pembuatan user windows dan penginstalan selesai</p>
+                <img src="images/lk-10.png" class="center" alt="Install Now" width="45%">
+                <br>
+                <p>Dengan mengikuti langkah-langkah dalam tutorial ini, Anda sekarang seharusnya dapat menginstal Windows 10 di PC atau laptop Anda tanpa kesulitan. Proses instalasi yang sukses akan membuka akses ke berbagai fitur dan pembaruan terbaru yang ditawarkan oleh Windows 10. Pastikan untuk selalu melakukan backup data penting sebelum melakukan instalasi sistem operasi agar data Anda tetap aman.</p>
+                <p>Jika Anda menghadapi masalah atau memiliki pertanyaan lebih lanjut, jangan ragu untuk mencari bantuan di forum komunitas atau menghubungi dukungan teknis Microsoft. Selamat mencoba dan semoga berhasil!</p>
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <h1>References</h1>
+        <ul>
+            <li>
+                <a href="https://www.idn.id/tutorial-install-windows-10/" target="_blank">
+                    Tutorial Install Windows 10 - IDN
+                </a>
+            </li>
+            <li>
+                <a href="https://diyaurrahman.blogspot.com/2016/10/pengertian-sejarah-installasi-windows-10.html" target="_blank">
+                    Pengertian Sejarah Installasi Windows 10 - Diyaurrahman Blogspot
+                </a>
+            </li>
+            <li>
+                <a href="https://pghc.uma.ac.id/2022/02/car-install-windows-10-di-pc-atau-laptop/" target="_blank">
+                    Cara Install Windows 10 di PC atau Laptop - PGHC UMA
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- About -->
+    <div class="container mt-5">
+        <h1>About Us</h1>
+        <p>Kami adalah tim pendidik dan developer yang bersemangat dan berkomitmen untuk menyediakan sumber daya pendidikan online yang berkualitas.</p>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Contact</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Cep Fadil Rozak</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Muhamad Lambda Gibran Ramadhan</td>
+                    <td>lambda@idst.mail</td>
+                </tr>
+                <tr>
+                    <td>Ramli Rustiawandi</td>
+                    <td>ramlirustiawan1707@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <!-- Contact Us -->
+    <div class="container mt-5">
+        <h1>Contact Us</h1>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center mt-4">
+        <p>&copy; 2024 Dev UNISIA. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
